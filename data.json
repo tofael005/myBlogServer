@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Ace of Spades",
+        "suit": "Spades",
+        "value": "Ace",
+        "image_url": "https://example.com/ace_of_spades.png"
+    },
+    {
+        "id": 2,
+        "name": "King of Hearts",
+        "suit": "Hearts",
+        "value": "King",
+        "image_url": "https://example.com/king_of_hearts.png"
+    },
+    {
+        "id": 3,
+        "name": "Queen of Diamonds",
+        "suit": "Diamonds",
+        "value": "Queen",
+        "image_url": "https://example.com/queen_of_diamonds.png"
+    },
+    {
+        "id": 4,
+        "name": "Jack of Clubs",
+        "suit": "Clubs",
+        "value": "Jack",
+        "image_url": "https://example.com/jack_of_clubs.png"
+    },
+    {
+        "id": 5,
+        "name": "10 of Spades",
+        "suit": "Spades",
+        "value": "10",
+        "image_url": "https://example.com/10_of_spades.png"
+    },
+    {
+        "id": 6,
+        "name": "9 of Hearts",
+        "suit": "Hearts",
+        "value": "9",
+        "image_url": "https://example.com/9_of_hearts.png"
+    },
+    {
+        "id": 7,
+        "name": "8 of Diamonds",
+        "suit": "Diamonds",
+        "value": "8",
+        "image_url": "https://example.com/8_of_diamonds.png"
+    },
+    {
+        "id": 8,
+        "name": "7 of Clubs",
+        "suit": "Clubs",
+        "value": "7",
+        "image_url": "https://example.com/7_of_clubs.png"
+    },
+    {
+        "id": 9,
+        "name": "6 of Spades",
+        "suit": "Spades",
+        "value": "6",
+        "image_url": "https://example.com/6_of_spades.png"
+    },
+    {
+        "id": 10,
+        "name": "5 of Hearts",
+        "suit": "Hearts",
+        "value": "5",
+        "image_url": "https://example.com/5_of_hearts.png"
+    }
+]
