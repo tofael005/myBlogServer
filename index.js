@@ -7,8 +7,6 @@ app.use(express.json())
 const port = 3000
 
 
-const data = require("./data.json");
-
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 
@@ -27,12 +25,20 @@ async function run() {
   try {
     await client.connect();
     const myBlogCollection = client.db("My-blog").collection("blogs")
+    const myProductCollection = client.db("My-blog").collection("product")
 
 
     app.get("/blogs", async (req, res) => {
       const result = await myBlogCollection.find().toArray();
       res.send(result);
     })
+
+    app.get("/product", async (req, res) => {
+      const result = await myProductCollection.find().toArray();
+      res.send(result)
+    })
+
+    
 
     app.get("/blogs/:id", async (req, res) => {
       const id = req.params.id;
